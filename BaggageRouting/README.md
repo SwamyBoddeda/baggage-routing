@@ -5,9 +5,9 @@ The goal of this project is to provide the optimized route for each bag.
 Steps to run the application locally
 
 1. git clone https://github.com/SwamyBoddeda/baggage-routing.git
-2. cd BaggageRouting
-3. mvn clean install
-4. run AppTest
+2. cd BaggageRouting (Navigate to BaggageRouting directory)
+3. mvn clean install  (Need maven path to be set to run mvn command)
+4. BaggageRouting> mvn -Dtest=AppTest test  (At BaggageRouting path run the maven command to run the test to see the result)
 
 
 #Example Input:
